@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
         <div className="App">
           <Header/>
-            <ToastContainer/>
+            <ToastContainer position='top-center'/>
               <Routes>
                 <Route exact path='/' element={ <Home/>}/>
                 <Route path='/add' element={ <AddEdit/>}/>
